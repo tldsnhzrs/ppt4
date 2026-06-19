@@ -155,6 +155,11 @@ def pic(s, name, x, y, w=None, h=None):
     return s.shapes.add_picture(os.path.join(ASSETS, name), Pt(x), Pt(y), **kw)
 
 
+def pic_h(shape):
+    """图片实际高度（pt），用于精确排布其后续元素（如图注）。"""
+    return shape.height / 12700.0
+
+
 def page_header(s, title, idx, accent=None):
     """内容页统一页眉：左竖条 + 标题 + 下划线 + 页码。"""
     accent = accent or C["secondary"]
@@ -183,9 +188,9 @@ def s_cover():
     rect(s, 0, 0, 960, 540, fill=C["primary"])
     rect(s, 0, 0, 960, 16, fill=C["secondary"])
     # 装饰：右下大圆环呼应轮胎
-    rect(s, 720, 300, 360, 360, fill=None, line=RGBColor(0x33,0x55,0xA0), line_w=2,
+    rect(s, 700, 280, 320, 320, fill=None, line=RGBColor(0x33,0x55,0xA0), line_w=2,
          shape=MSO_SHAPE.OVAL)
-    rect(s, 760, 340, 280, 280, fill=None, line=RGBColor(0x2A,0x4A,0x95), line_w=14,
+    rect(s, 735, 315, 250, 250, fill=None, line=RGBColor(0x2A,0x4A,0x95), line_w=14,
          shape=MSO_SHAPE.OVAL)
     text(s, 60, 70, 600, 40, "环境工程 · 固体废物资源化", size=20,
          color=C["accent_lt"], bold=True)
@@ -256,7 +261,6 @@ def s_overview():
         cy = y0 + (i // 2) * (ch + gy)
         rect(s, cx, cy, cw, ch, fill=C["light"], shadow=True)
         rect(s, cx, cy, 10, ch, fill=col)
-        box_text(s, cx + 28, cy + 22, 56, 56, "■", 26, col, fill=None)
         text(s, cx + 30, cy + 20, cw - 60, 40, t, size=24, color=col, bold=True)
         text(s, cx + 30, cy + 72, cw - 55, 90, d, size=16, color=C["dark"],
              line_spacing=1.3)
@@ -303,12 +307,12 @@ def s_stats():
         text(s, x, 172, 200, 26, lab, size=14, color=C["light_txt"],
              align=PP_ALIGN.CENTER)
         x += 222
-    pic(s, "production_trend.png", 60, 230, w=560)
-    rect(s, 650, 235, 270, 250, fill=C["light"])
-    rect(s, 650, 235, 270, 44, fill=C["secondary"])
-    text(s, 650, 245, 270, 30, "关键判读", size=20, color=C["white"], bold=True,
+    pic(s, "production_trend.png", 50, 232, w=475)
+    rect(s, 545, 235, 365, 250, fill=C["light"])
+    rect(s, 545, 235, 365, 44, fill=C["secondary"])
+    text(s, 545, 245, 365, 30, "关键判读", size=20, color=C["white"], bold=True,
          align=PP_ALIGN.CENTER)
-    text(s, 668, 292, 236, 180,
+    text(s, 568, 292, 320, 180,
          "· 产生量持续刚性增长，2024 年突破 2000 万吨\n\n"
          "· 综合利用率稳步提升至 64%，但仍显著低于欧盟、日本（>90%）\n\n"
          "· 提升空间巨大，资源化是必由之路",
@@ -407,7 +411,7 @@ def s_routes_overview():
 def s_route_detail(idx, title, badge, badge_col, points, img, img_caption,
                    highlight):
     page_header(s := slide(), title, idx, accent=badge_col)
-    box_text(s, 700, 34, 210, 40, badge, 16, C["white"], bold=True, fill=badge_col,
+    box_text(s, 800, 36, 150, 32, badge, 13.5, C["white"], bold=True, fill=badge_col,
              shape=MSO_SHAPE.ROUNDED_RECTANGLE)
     # 左侧要点
     y = 120
@@ -418,14 +422,15 @@ def s_route_detail(idx, title, badge, badge_col, points, img, img_caption,
         y += 84
     # 右侧图
     if img:
-        pic(s, img, 500, 112, w=430)
-        text(s, 500, 470, 430, 24, img_caption, size=12, color=C["gray"],
+        p = pic(s, img, 500, 112, w=430)
+        cap_y = 112 + pic_h(p) + 14
+        text(s, 500, cap_y, 430, 24, img_caption, size=12, color=C["gray"],
              align=PP_ALIGN.CENTER)
     # 高亮条
-    rect(s, 50, 470, 430, 50, fill=C["light"])
-    rect(s, 50, 470, 8, 50, fill=badge_col)
-    text(s, 70, 470, 410, 50, highlight, size=14, color=C["primary"], bold=True,
-         anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.15)
+    rect(s, 50, 464, 430, 40, fill=C["light"])
+    rect(s, 50, 464, 8, 40, fill=badge_col)
+    text(s, 70, 464, 410, 40, highlight, size=13.5, color=C["primary"], bold=True,
+         anchor=MSO_ANCHOR.MIDDLE, line_spacing=1.1)
     footer(s)
 
 
@@ -477,7 +482,7 @@ def s_compare():
                      15 if k == 0 else 14, col, bold=(k == 0),
                      fill=bg, line=RGBColor(0xD8,0xDF,0xE8))
     pic(s, "radar.png", 510, 100, w=410)
-    text(s, 50, 430, 430, 90,
+    text(s, 50, 425, 430, 70,
          "结论：不存在单一最优技术。应按轮胎状况构建'梯级利用'体系——\n"
          "可翻新者优先翻新，其余制胶粉/再生胶高值利用，复杂废胎进入热解彻底回收。",
          size=14.5, color=C["primary"], bold=True, line_spacing=1.3)
@@ -487,8 +492,8 @@ def s_compare():
 # ---- S19 效益分析 (stats + benefit chart) ----
 def s_benefit():
     page_header(s := slide(), "环境效益与经济效益", nxt())
-    pic(s, "benefit.png", 50, 110, w=470)
-    pic(s, "country_rate.png", 50, 320, w=470)
+    p1 = pic(s, "benefit.png", 50, 112, w=310)
+    pic(s, "country_rate.png", 50, 112 + pic_h(p1) + 15, w=310)
     # 右侧三块效益
     blocks = [
         ("环境效益", C["accent"],
@@ -500,10 +505,10 @@ def s_benefit():
     ]
     y = 110
     for t, col, d in blocks:
-        rect(s, 545, y, 380, 122, fill=C["light"], shadow=True)
-        rect(s, 545, y, 10, 122, fill=col)
-        text(s, 572, y + 12, 340, 30, t, size=20, color=col, bold=True)
-        text(s, 572, y + 46, 345, 72, d, size=13.5, color=C["dark"], line_spacing=1.25)
+        rect(s, 460, y, 370, 122, fill=C["light"], shadow=True)
+        rect(s, 460, y, 10, 122, fill=col)
+        text(s, 487, y + 12, 335, 30, t, size=20, color=col, bold=True)
+        text(s, 487, y + 46, 335, 72, d, size=13.5, color=C["dark"], line_spacing=1.25)
         y += 134
     footer(s)
 
