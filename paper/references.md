@@ -17,7 +17,7 @@ Numbering here is a working pool ID; final manuscript citation order will be ass
 5. Touvron, H., Lavril, T., Izacard, G., et al. (2023). LLaMA: Open and Efficient Foundation Language Models. arXiv:2302.13971. https://arxiv.org/abs/2302.13971
 6. Radford, A., Kim, J. W., Hallacy, C., et al. (2021). Learning Transferable Visual Models From Natural Language Supervision (CLIP). *ICML 2021*, PMLR 139:8748–8763. arXiv:2103.00020. https://arxiv.org/abs/2103.00020
 7. Dosovitskiy, A., Beyer, L., Kolesnikov, A., et al. (2021). An Image is Worth 16×16 Words: Transformers for Image Recognition at Scale (ViT). *ICLR 2021*. arXiv:2010.11929. https://arxiv.org/abs/2010.11929
-8. Goodfellow, I., Pouget-Abadie, J., Mirza, M., et al. (2014). Generative Adversarial Nets. *NeurIPS 2014*, 2672–2680. arXiv:1406.2661. https://arxiv.org/abs/1406.2661
+8. Goodfellow, I., Pouget-Abadie, J., Mirza, M., et al. (2014). Generative Adversarial Networks. *NeurIPS 2014*, 2672–2680. arXiv:1406.2661. https://arxiv.org/abs/1406.2661
 9. Rombach, R., Blattmann, A., Lorenz, D., Esser, P., & Ommer, B. (2022). High-Resolution Image Synthesis with Latent Diffusion Models. *CVPR 2022*, 10684–10695. arXiv:2112.10752. https://arxiv.org/abs/2112.10752
 10. Lewis, P., Perez, E., Piktus, A., et al. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks. *NeurIPS 2020*. arXiv:2005.11401. https://arxiv.org/abs/2005.11401
 11. Wei, J., Wang, X., Schuurmans, D., et al. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. *NeurIPS 2022*. arXiv:2201.11903. https://arxiv.org/abs/2201.11903
@@ -32,7 +32,7 @@ Numbering here is a working pool ID; final manuscript citation order will be ass
 17. Wang, L., Ma, C., Feng, X., et al. (2024). A Survey on Large Language Model based Autonomous Agents. *Frontiers of Computer Science*. arXiv:2308.11432. https://arxiv.org/abs/2308.11432
 18. Xi, Z., Chen, W., Guo, X., et al. (2023). The Rise and Potential of Large Language Model Based Agents: A Survey. arXiv:2309.07864. https://arxiv.org/abs/2309.07864
 19. Yin, S., Fu, C., Zhao, S., et al. (2024). A Survey on Multimodal Large Language Models. *National Science Review*, 11(12), nwae403. https://academic.oup.com/nsr/article/11/12/nwae403/7896414
-20. Zhang, C., Wang, M., et al. (2024). A Comprehensive Survey and Guide to Multimodal Large Language Models in Vision-Language Tasks. arXiv:2411.06284. https://arxiv.org/abs/2411.06284
+20. Liang, C. X., et al. (2024). A Comprehensive Survey and Guide to Multimodal Large Language Models in Vision-Language Tasks. arXiv:2411.06284. https://arxiv.org/abs/2411.06284
 21. Zhang, C., Zhang, C., Zhang, M., et al. (2023). Text-to-image Diffusion Models in Generative AI: A Survey. arXiv:2303.07909. https://arxiv.org/abs/2303.07909
 22. Yang, L., Zhang, Z., Song, Y., et al. (2023). Diffusion Models: A Comprehensive Survey of Methods and Applications. *ACM Computing Surveys*, 56(4), 1–39. https://dl.acm.org/doi/10.1145/3626235
 
@@ -43,23 +43,23 @@ Numbering here is a working pool ID; final manuscript citation order will be ass
 25. Biswas, S., et al. (2023). Leveraging Deep Learning and Language Models in Revolutionizing Water Resource Management, Research, and Policy Making: A Case for ChatGPT. *ACS ES&T Water*, 3(8), 1984–1986. https://doi.org/10.1021/acsestwater.3c00264
 26. Xu, B., Wu, G., Li, Z., et al. (2025). Towards Domain-Adapted Large Language Models for Water and Wastewater Management: Methods, Datasets and Benchmarking. *npj Clean Water*, 8, 82. https://www.nature.com/articles/s41545-025-00509-8
 27. Si, Y., et al. (2025). Evaluating and Advancing Large Language Models for Water Knowledge Tasks in Engineering and Research. *Environmental Science & Technology Letters*. https://doi.org/10.1021/acs.estlett.5c00038
-28. Conrad, O., et al. (2024). Application of Large Language Models in Developing Conversational Agents for Water Quality Education, Communication, and Operations. *Water Practice & Technology*, 20(10), 2094. https://iwaponline.com/wpt/article/20/10/2094/109706/
-29. Kumar, A., et al. (2023). Revolutionizing Water Treatment, Conservation, and Management: Harnessing the Power of AI-driven ChatGPT Solutions. *Environmental Challenges*, 13, 100779. https://www.sciencedirect.com/science/article/pii/S2667010023001051
+28. Ravindran, J. S., et al. (2024). Application of Large Language Models in Developing Conversational Agents for Water Quality Education, Communication, and Operations. *Water Practice & Technology*, 20(10), 2094. https://iwaponline.com/wpt/article/20/10/2094/109706/
+29. Egbemhenghe, A. U., et al. (2023). Revolutionizing Water Treatment, Conservation, and Management: Harnessing the Power of AI-driven ChatGPT Solutions. *Environmental Challenges*, 13, 100779. https://www.sciencedirect.com/science/article/pii/S2667010023001051
 
 ## D. Foundation models for sustainability / Earth & climate science
 
-30. Mai, G., Huang, W., Sun, J., et al. (2025). Foundation Models for Environmental Science: A Survey of Emerging Frontiers. arXiv:2504.04280. https://arxiv.org/abs/2504.04280
+30. Yu, R., Chen, X., Xie, Y., Yao, X., Willard, J., & Jia, X. (2025). Foundation Models for Environmental Science: A Survey of Emerging Frontiers. arXiv:2504.04280. https://arxiv.org/abs/2504.04280
 31. Zhu, X. X., Xiong, Z., Wang, Y., et al. (2024). On the Foundations of Earth and Climate Foundation Models. arXiv:2405.04285. https://arxiv.org/abs/2405.04285
-32. Karpatne, A., et al. (2025). A Survey of Foundation Models for Environmental Science. *Springer LNCS*. https://link.springer.com/chapter/10.1007/978-981-96-8295-9_3
+32. Yu, R., Chen, X., Xie, Y., & Jia, X. (2025). A Survey of Foundation Models for Environmental Science. *Springer LNCS*. arXiv:2503.03142. https://link.springer.com/chapter/10.1007/978-981-96-8295-9_3
 
 ## E. AI / ML / generative AI in (municipal) solid-waste management — reviews & anchors
 
 33. Dawar, I., Srivastava, A., Singal, M., Dhyani, N., & Rastogi, S. (2025). A Systematic Literature Review on Municipal Solid Waste Management Using Machine Learning and Deep Learning. *Artificial Intelligence Review*, 58, Article 183. https://doi.org/10.1007/s10462-025-11196-9
-34. Abdallah, M., et al. (2023). Application of Artificial Intelligence Techniques in Municipal Solid Waste Management: A Systematic Literature Review. *Environmental Technology Reviews*, 12(1), 401–428 (also 316–336). https://doi.org/10.1080/21622515.2023.2205027
+34. Mounadel, A., Ech-Cheikh, H., Lissane Elhaq, S., Rachid, A., Sadik, M., & Abdellaoui, M. (2023). Application of Artificial Intelligence Techniques in Municipal Solid Waste Management: A Systematic Literature Review. *Environmental Technology Reviews*, 12(1), 316–336. https://doi.org/10.1080/21622515.2023.2205027
 35. Xia, W., Jiang, Y., Chen, X., & Zhao, R. (2022). Application of machine learning algorithms in municipal solid waste management: A mini review. *Waste Management & Research*, 40(6), 609–624. https://doi.org/10.1177/0734242X211033716
 36. Fang, B., Yu, J., Chen, Z., Osman, A. I., Farghali, M., Ihara, I., Hamza, E. H., Rooney, D. W., & Yap, P.-S. (2023). Artificial intelligence for waste management in smart cities: a review. *Environmental Chemistry Letters*, 21(4), 1959–1989. https://doi.org/10.1007/s10311-023-01604-3
 37. Ihsanullah, I., Alam, G., Jamal, A., & Shaik, F. (2022). Recent advances in applications of artificial intelligence in solid waste management: A review. *Chemosphere*, 309(Pt 1), 136631. https://doi.org/10.1016/j.chemosphere.2022.136631
-38. Lin, K., et al. (2024). A Comprehensive Review: Integration of Digitalization and Circular Economy in Waste Management by Adopting Artificial Intelligence Approaches — Towards a Simulation Model. *Journal of Cleaner Production*, 441, 140950. https://www.sciencedirect.com/science/article/abs/pii/S0959652624020328
+38. *[Removed — could not be verified against any findable publication at the cited venue/volume; dropped per no-fabrication policy.]*
 
 ## F. Tier I — Perceive: computer vision, deep learning & vision-language models for waste
 
@@ -71,7 +71,7 @@ Numbering here is a working pool ID; final manuscript citation order will be ass
 43. Malla, H. J., Bazli, M., & Arashpour, M. (2025). Enhancing waste recognition with vision-language models: A prompt engineering approach for a scalable solution. *Waste Management*, 204, 114939. https://doi.org/10.1016/j.wasman.2025.114939
 44. Ranjbar, I., Ventikos, Y., & Arashpour, M. (2025). Zero-shot and few-shot multimodal plastic waste classification with vision-language models. *Waste Management*, 202, 114815. https://doi.org/10.1016/j.wasman.2025.114815
 45. Sun, Y., Gu, Z., & Yang, S. B. (2024). Probing vision and language models for construction waste material recognition (ConCLIP / VL-CSW). *Automation in Construction*, 166, 105629. https://doi.org/10.1016/j.autcon.2024.105629
-46. Imran, A., et al. (2025). Waste-Bench: A Comprehensive Benchmark for Evaluating VLLMs in Cluttered Environments. *EMNLP 2025*. arXiv:2509.00176. https://arxiv.org/abs/2509.00176
+46. Ali, M., Khan, S., et al. (2025). Waste-Bench: A Comprehensive Benchmark for Evaluating VLLMs in Cluttered Environments. *EMNLP 2025*. arXiv:2509.00176. https://arxiv.org/abs/2509.00176
 47. Heo, S., & Na, S. (2025). Developing WasteSAM: accurate construction waste image segmentation to facilitate efficient recycling. *Waste Management & Research*. https://doi.org/10.1177/0734242X241290743
 48. Langley, A., Lonergan, M., Huang, T., & Azghadi, M. R. (2025). Analyzing mixed construction and demolition waste in material recovery facilities: evolution, challenges, and applications of computer vision and deep learning. *Resources, Conservation and Recycling*, 217, 108218. https://doi.org/10.1016/j.resconrec.2025.108218
 49. Alrayes, F. S., Asiri, M. M., Maashi, M. S., et al. (2023). Waste classification using vision transformer based on multilayer hybrid convolution neural network. *Urban Climate*, 49, 101483. https://doi.org/10.1016/j.uclim.2023.101483
@@ -80,7 +80,7 @@ Numbering here is a working pool ID; final manuscript citation order will be ass
 
 ## G. Tier III — Generate: generative models for waste data/augmentation
 
-52. Bashir, M. A., et al. (2024). WasteGAN: Data Augmentation for Robotic Waste Sorting through Generative Adversarial Networks. *IEEE/RSJ IROS 2024*. arXiv:2409.16999. https://arxiv.org/abs/2409.16999
+52. Bacchin, A., et al. (2024). WasteGAN: Data Augmentation for Robotic Waste Sorting through Generative Adversarial Networks. *IEEE/RSJ IROS 2024*. arXiv:2409.16999. https://arxiv.org/abs/2409.16999
 
 ## H. Tier IV — Act: forecasting, route optimization, control, WtE & process ML
 
@@ -111,16 +111,20 @@ Numbering here is a working pool ID; final manuscript citation order will be ass
 74. Alita, L. (2025). Enhancing Citizen Engagement in Urban Greening: The Potential of Large Language Models in Value Co-creation. *Technological Forecasting and Social Change*, 216, 124134. https://doi.org/10.1016/j.techfore.2025.124134
 75. European Parliament and Council (2024). Regulation (EU) 2024/1689 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). *Official Journal of the EU*. https://eur-lex.europa.eu/eli/reg/2024/1689/oj
 
+## J. Additional verified references (promoted from provisional / late additions)
+
+76. Rao, R., Singh, S., Salas, M., Sarker, A., Kumar, R., Wang, Y., Lucia, L., Mittal, A., Yarbrough, J., Barlaz, M. A., Singh, A., & Pal, L. (2025). AI-powered municipal solid waste management: a comprehensive review from generation to utilization. *Frontiers in Energy Research*, 13, 1670679. https://doi.org/10.3389/fenrg.2025.1670679
+77. Singh, D., & Uppaluri, R. V. S. (2023). Machine learning tool-based prediction and forecasting of municipal solid waste generation rate: a case study in Guwahati, Assam, India. *International Journal of Environmental Science and Technology*, 20, 12207–12222. https://doi.org/10.1007/s13762-022-04644-4
+78. Jano, T., Sayed, A. N., Hossen, M. M., Sardianos, C., Hamila, R., Bensaali, F., Varlamis, I., & Dimitrakopoulos, G. (2026). Closing the loop: A systematic review of artificial intelligence in circular e-waste management. *Waste Management*, in press. PII S0956053X26000620 (DOI not yet assigned at time of writing).
+79. Gao, A. (2023). Implications of ChatGPT and Large Language Models for Environmental Policymaking. *SSRN Working Paper* 4499643. https://doi.org/10.2139/ssrn.4499643
+80. Patel, D., Lin, S., Rayfield, J., et al. (2025). AssetOpsBench: Benchmarking AI Agents for Task Automation in Industrial Asset Operations and Maintenance. arXiv:2506.03828. https://arxiv.org/abs/2506.03828
+
 ---
 
-## PROVISIONAL — re-verify exact DOI before citing (do NOT use until confirmed)
+## PROVISIONAL — could not be fully verified; do NOT cite until confirmed
 
-- P1. "AI-powered Municipal Solid Waste Management: A Comprehensive Review from Generation to Utilization." *Frontiers in Energy Research*, 13, 1670679 (2025). https://doi.org/10.3389/fenrg.2025.1670679 — confirm authors.
-- P2. "A Circular Economy Approach for Sustainable Waste Management… AI, Advanced Technologies and Policy." *Recycling*, 11(6), 99. https://doi.org/10.3390/recycling11060099 — page 403-blocked; confirm authors/year.
-- P3. Singh, D., & Uppaluri, R. V. S. (2023). Machine learning tree-based prediction of municipal solid waste generation. — confirm exact venue/DOI.
-- P4. "Closing the loop: A systematic review of artificial intelligence in circular e-waste management." *Waste Management* (in press, 2026). PII S0956053X26000620 — DOI not yet surfaced.
-- P5. "A Comprehensive Study of Machine Learning for Waste-to-Energy Process Modeling and Optimization." *Processes*, 13(9), 2691 (2025). https://doi.org/10.3390/pr13092691 — confirm authors.
-- P6. Gao, A. (2023). Implications of ChatGPT and Large Language Models for Environmental Policymaking. *SSRN* 4499643. https://doi.org/10.2139/ssrn.4499643 — working paper; confirm before citing in Q1 venue.
-- P7. Wang, Z., et al. (2024). A New ChatGPT-empowered, Easy-to-use Machine Learning Paradigm for Environmental Science. PMC11021822 — confirm primary venue/DOI.
+- P2. Title is "Circular Economy Approaches for Sustainable Waste Management: A Review on Integration of AI, Advanced Technologies and Policy Recommendations" (plural "Approaches"). *Recycling*, 11(6), 99 (2026, per MDPI listing — note year correction from 2025). https://doi.org/10.3390/recycling11060099 — author list could not be retrieved (publisher page blocked); do not cite without confirmed authors.
+- P5. "A Comprehensive Study of Machine Learning for Waste-to-Energy Process Modeling and Optimization." *Processes*, 13(9), 2691 (2025). https://doi.org/10.3390/pr13092691 — title/venue/DOI confirmed but author list could not be retrieved (publisher page blocked); do not cite without confirmed authors.
+- P7. Wang, Z., et al. (2024). "A new ChatGPT-empowered, easy-to-use machine learning paradigm for environmental science." Indexed at PMC11021822 / ScienceDirect PII S2772985024000073; exact journal title and DOI not independently confirmed — do not cite until the primary venue record is retrieved directly.
 
-**Pool status:** ~75 fully verified unique references + 7 provisional. Target ~100; ~20–25 additional verified refs to be gathered during drafting of Tiers I–V and the cross-cutting analysis (e.g., environmental-justice-and-waste, edge/TinyML, MLOps, benchmark datasets).
+**Pool status:** 80 fully verified unique references + 3 unresolved provisional (held out of the citable pool). All entries previously flagged with incorrect or unconfirmed author attributions (refs 28, 29, 30, 32, 34, 46, 52) have been corrected against independently retrieved source records; one entry (formerly #38) was dropped as unverifiable. Target ~100; ~15–20 additional verified refs remain to be gathered, prioritizing environmental-justice-in-AI, TinyML/edge deployment for waste sorting, and LLM-agent safety/benchmark literature flagged during Chapter 3 and Chapter 6 drafting.
